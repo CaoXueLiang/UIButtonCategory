@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "UIButton+Aliment.h"
-#import "MMPlaceHolder.h"
 
 @interface ViewController ()
 @property (nonatomic,strong) UIButton *tmpButton;

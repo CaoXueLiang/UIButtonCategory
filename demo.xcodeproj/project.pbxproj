@@ -16,7 +16,6 @@
 		580AEBDA1F95A9D300B79866 /* demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 580AEBD91F95A9D300B79866 /* demoTests.m */; };
 		580AEBE51F95A9D300B79866 /* demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 580AEBE41F95A9D300B79866 /* demoUITests.m */; };
 		580AEBF41F95ABC800B79866 /* UIButton+Aliment.m in Sources */ = {isa = PBXBuildFile; fileRef = 580AEBF31F95ABC800B79866 /* UIButton+Aliment.m */; };
-		580AEBF91F95D59600B79866 /* MMPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 580AEBF81F95D59600B79866 /* MMPlaceHolder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +54,6 @@
 		580AEBE61F95A9D300B79866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		580AEBF21F95ABC800B79866 /* UIButton+Aliment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Aliment.h"; sourceTree = "<group>"; };
 		580AEBF31F95ABC800B79866 /* UIButton+Aliment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Aliment.m"; sourceTree = "<group>"; };
-		580AEBF71F95D59600B79866 /* MMPlaceHolder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMPlaceHolder.h; sourceTree = "<group>"; };
-		580AEBF81F95D59600B79866 /* MMPlaceHolder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMPlaceHolder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +104,6 @@
 		580AEBBF1F95A9D300B79866 /* demo */ = {
 			isa = PBXGroup;
 			children = (
-				580AEBF71F95D59600B79866 /* MMPlaceHolder.h */,
-				580AEBF81F95D59600B79866 /* MMPlaceHolder.m */,
 				580AEBC01F95A9D300B79866 /* AppDelegate.h */,
 				580AEBC11F95A9D300B79866 /* AppDelegate.m */,
 				580AEBC31F95A9D300B79866 /* ViewController.h */,
@@ -278,7 +273,6 @@
 				580AEBF41F95ABC800B79866 /* UIButton+Aliment.m in Sources */,
 				580AEBC51F95A9D300B79866 /* ViewController.m in Sources */,
 				580AEBD01F95A9D300B79866 /* main.m in Sources */,
-				580AEBF91F95D59600B79866 /* MMPlaceHolder.m in Sources */,
 				580AEBC21F95A9D300B79866 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
