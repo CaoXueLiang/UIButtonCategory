@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author       = { "caoXueLiang" => "2357747972@qq.com" }
   s.platform     = :ios
   s.source       = { :git => "https://github.com/CaoXueLiang/UIButtonCategory.git", :tag => s.version }
-  s.source_files  = "demo", "demo/**/*.{h,m}"
+  s.source_files  = "Classes/*.{h,m}"
   s.requires_arc = true
 
 end

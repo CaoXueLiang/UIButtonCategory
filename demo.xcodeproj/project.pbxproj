@@ -15,7 +15,7 @@
 		580AEBD01F95A9D300B79866 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 580AEBCF1F95A9D300B79866 /* main.m */; };
 		580AEBDA1F95A9D300B79866 /* demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 580AEBD91F95A9D300B79866 /* demoTests.m */; };
 		580AEBE51F95A9D300B79866 /* demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 580AEBE41F95A9D300B79866 /* demoUITests.m */; };
-		580AEBF41F95ABC800B79866 /* UIButton+Aliment.m in Sources */ = {isa = PBXBuildFile; fileRef = 580AEBF31F95ABC800B79866 /* UIButton+Aliment.m */; };
+		C37B517222379E0600760618 /* UIButton+Aliment.m in Sources */ = {isa = PBXBuildFile; fileRef = C37B517122379E0600760618 /* UIButton+Aliment.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		580AEBE01F95A9D300B79866 /* demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		580AEBE41F95A9D300B79866 /* demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demoUITests.m; sourceTree = "<group>"; };
 		580AEBE61F95A9D300B79866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		580AEBF21F95ABC800B79866 /* UIButton+Aliment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Aliment.h"; sourceTree = "<group>"; };
-		580AEBF31F95ABC800B79866 /* UIButton+Aliment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Aliment.m"; sourceTree = "<group>"; };
+		C37B517022379E0600760618 /* UIButton+Aliment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Aliment.h"; sourceTree = "<group>"; };
+		C37B517122379E0600760618 /* UIButton+Aliment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Aliment.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +84,7 @@
 		580AEBB41F95A9D300B79866 = {
 			isa = PBXGroup;
 			children = (
+				C37B516F22379E0600760618 /* Classes */,
 				580AEBBF1F95A9D300B79866 /* demo */,
 				580AEBD81F95A9D300B79866 /* demoTests */,
 				580AEBE31F95A9D300B79866 /* demoUITests */,
@@ -113,8 +114,6 @@
 				580AEBCB1F95A9D300B79866 /* LaunchScreen.storyboard */,
 				580AEBCE1F95A9D300B79866 /* Info.plist */,
 				580AEBCF1F95A9D300B79866 /* main.m */,
-				580AEBF21F95ABC800B79866 /* UIButton+Aliment.h */,
-				580AEBF31F95ABC800B79866 /* UIButton+Aliment.m */,
 			);
 			path = demo;
 			sourceTree = "<group>";
@@ -135,6 +134,15 @@
 				580AEBE61F95A9D300B79866 /* Info.plist */,
 			);
 			path = demoUITests;
+			sourceTree = "<group>";
+		};
+		C37B516F22379E0600760618 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C37B517022379E0600760618 /* UIButton+Aliment.h */,
+				C37B517122379E0600760618 /* UIButton+Aliment.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,10 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				580AEBF41F95ABC800B79866 /* UIButton+Aliment.m in Sources */,
 				580AEBC51F95A9D300B79866 /* ViewController.m in Sources */,
 				580AEBD01F95A9D300B79866 /* main.m in Sources */,
 				580AEBC21F95A9D300B79866 /* AppDelegate.m in Sources */,
+				C37B517222379E0600760618 /* UIButton+Aliment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
