@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "UIButtonCategory"
-  s.version      = "0.0.1"
+  s.version      = "0.01"
   s.summary      = "Button Category"
   s.homepage     = "https://github.com/CaoXueLiang/UIButtonCategory"
   s.license      = "MIT"
